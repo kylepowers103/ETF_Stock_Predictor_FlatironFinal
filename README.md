@@ -1,6 +1,7 @@
 # ETF_Stock_Predictor_FlatironFinal
 
 Project: Predict Tomorrow’s Stock Price
+
 ▪ Created 3 models for 28 stocks using exogenous data sources that I thought could have an impact on broader capital markets
     ▪ 1) LSTM Model Prediction w/ exogenous variables and feature engineering
     ▪ 2) LSTM Model Prediction using only 1,3,5,21,35 day return variables
