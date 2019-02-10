@@ -57,3 +57,19 @@ Metrics examined:
 -3) Add pre-market future data as variables to assess if the stock is likely to close higher or lower before the market opens
 
 -4) Additional Feature Engineering on Exogenous Data
+
+
+## Example Result for Disney:
+#### LSTM Model DIS Models:
+![Imag1](/ReadmePhotos/gitDISallfeatures.png)
+Format: ![Alt Text](url)
+
+![Imag1](/ReadmePhotos/gitDISnofeatures.png)
+Format: ![Alt Text](url)
+
+#### Facebook Prophet DIS Model 
+![Imag1](/ReadmePhotos/gitDISfbprophet.png)
+Format: ![Alt Text](url)
+
+![Imag1](/ReadmePhotos/gitDISfbprophet2.png)
+Format: ![Alt Text](url)
