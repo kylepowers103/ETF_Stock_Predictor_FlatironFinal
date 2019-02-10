@@ -33,6 +33,19 @@
 
 
 ## Forecasting Methodology
+- LSTM Neural Network is trained using Keras to predict the following day's closing price
+    - LSTMs are widely used for sequence prediction problems and have proven to be extremely effective. The reason they work so well is because LSTM is able to store past information that is important, and forget the information that is not. LSTM has three gates:
+        - The input gate: The input gate adds information to the cell state
+        - The forget gate: It removes the information that is no longer required by the model
+        - The output gate: Output Gate at LSTM selects the information to be shown as output
+ 
+- Baseline models used included a naive baseline model (assuming price remains the same as the previous day) and Facebook Prophet Timeseries prediction.
+
+Metrics examined: 
+    -Root Mean Square Error (RMSE)
+    -R-Squared
+    -Mean Absolute Error (MAE) 
+
 
 ## Further Improvements
 - 1)Look at longer batch windows or predictions further out, because a lot of the economic data is monthly and doesn't have a large meaning on prediction tomorrow's data unless a new report came out. Also a lot of technical indicators are better predictors or medium/longer term trends
