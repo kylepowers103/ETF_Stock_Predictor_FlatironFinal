@@ -7,6 +7,12 @@
     - 2) LSTM Model Prediction using only 1,3,5,21,35 day return variables
     - 3) Facebook Prophet Prediction
 
+###### Long Short Term Memory (LSTM)Introduction:
+- LSTMs are widely used for sequence prediction problems and have proven to be extremely effective. The reason they work so well is because LSTM is able to store past information that is important, and forget the information that is not. LSTM has three gates:
+    -The input gate: The input gate adds information to the cell state
+    -The forget gate: It removes the information that is no longer required by the model
+    -The output gate: Output Gate at LSTM selects the information to be shown as output
+
 ## Data Sources
 - Quandl, Alpha-vantage, University of Michigan Surveys,data.gov, Google.com
 
@@ -16,6 +22,7 @@
     - High-low difference
     -Percent change
     - 3,10,35 day moving average,standard deviation and percentchange
+   
 
 ## Exogenous Economic Data:
 - Consumer Sentiment Report (Monthly)
